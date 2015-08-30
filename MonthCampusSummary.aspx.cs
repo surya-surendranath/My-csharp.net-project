@@ -37,7 +37,7 @@ public partial class MonthCampusSummary : System.Web.UI.Page
         }
         else
         {
-            Response.Write("Sorry no data");
+            Response.Write("sorry, no data available");
         }
         lblstudent.Text = "The total students in ( code here) campus is " + dr["TotalStudents"].ToString();
         lblsum.Text = "The total grant amount in ( code here) campus is $" + dr["Totalamount"].ToString();
