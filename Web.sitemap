@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+  <siteMapNode title="Welcome Home" description="Home" url="~/GrantSummary.aspx" >
+    
+    <siteMapNode title="Student Search" description="Search a Student"
+         url="~/Searchstudentuser.aspx" >
+      
+      <siteMapNode title="Display Information"
+            description="Display Information"
+            url="~/Displayinfouser.aspx" >
+        <siteMapNode title="Student Grant View"
+            description="Display Information"
+            url="~/Studentgrantviewuser.aspx" >
+          
+          <siteMapNode title="Add Student Grant"
+            description="Display Information"
+            url="~/Studentgrantadminuser.aspx" >
+          </siteMapNode>
+          
+       
+        </siteMapNode>
+      </siteMapNode>
+    </siteMapNode>
+  <siteMapNode title="Add Student" description="Search a Student"
+         url="~/Addstudentuser.aspx" >
+  </siteMapNode>
+    
+    </siteMapNode>
+
+ 
+
+ 
+</siteMap>
